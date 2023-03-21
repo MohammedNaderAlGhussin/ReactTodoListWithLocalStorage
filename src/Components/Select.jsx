@@ -27,7 +27,6 @@ const Select = () => {
   }, [status]);
   const onSelectHandler = (e) => {
     setStatus(e.target.value);
-    console.log(status);
 
     // setStatus(e.target.value);
     // if (e.target.value !== "All") {

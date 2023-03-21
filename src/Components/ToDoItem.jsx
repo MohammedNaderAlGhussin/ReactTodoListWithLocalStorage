@@ -27,8 +27,6 @@ const ToDoItem = ({ item }) => {
       return element;
     });
     toDoContext.setToDoList(newToDoArr);
-    console.log(newToDoArr);
-    console.log("====", toDoContext.filteredToDo);
   };
   const onCompleteHandler = () => {
     // setComplete(!complete);
